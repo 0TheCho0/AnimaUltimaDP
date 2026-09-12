@@ -1,2 +1,2 @@
-﻿# Core Tick Function
+# Core Tick Function
 function anima_ultima:death/check_deaths

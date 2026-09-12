@@ -12,5 +12,3 @@ title @s times 20 100 20
 title @s title {"text":"HAS MUERTO","color":"dark_red","bold":true}
 title @s subtitle {"text":"Tu alma ahora le pertenece al Diablo","color":"red","italic":true}
 
-# Attempt server kick
-execute if entity @s run kick @s Has muerto. Tu alma ahora le pertenece al Diablo.
