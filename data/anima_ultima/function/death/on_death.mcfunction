@@ -16,3 +16,6 @@ tellraw @a [{"text":"[Almas Recolectadas: ","color":"dark_gray"},{"score":{"name
 
 # 5. Execute ban logic for this player
 function anima_ultima:death/ban_player
+
+# 6. Trigger Day 3 Demonic Storm (Vaho Demoníaco)
+execute if score #day au_data matches 3.. run function anima_ultima:storm/start_or_extend
