@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 61,
+    "pack_format": 107,
+    "min_format": 107,
+    "max_format": 107,
     "description": "Anima Ultima SMP - Datapack Oficial"
   }
 }
