@@ -23,9 +23,9 @@ execute as @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] run data mo
 
 # Step 4: Apply initial effects
 # Strength II (amplifier 1), Resistance III (amplifier 2), Speed II (amplifier 1)
-effect give @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] strength 999999 1 true
-effect give @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] resistance 999999 2 true
-effect give @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] speed 999999 1 true
+effect give @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] strength 999999 2 true
+effect give @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] resistance 999999 3 true
+effect give @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] speed 999999 2 true
 
 # Step 5: Lock target onto the nearest survival player
 execute as @e[type=wolf,tag=au_chupacabras_new,limit=1,sort=nearest] at @s run data modify entity @s AngryAt set from entity @p[gamemode=!creative,gamemode=!spectator] UUID
