@@ -5,9 +5,9 @@
 
 # --- Maintain hostility ---
 # Keep anger maxed so the wolf never calms down
-execute as @e[type=wolf,tag=au_chupacabras] run data modify entity @s AngerTime set value 999999
+execute as @e[type=wolf,tag=au_chupacabras] run data modify entity @s anger_end_time set value 9999999999L
 # Re-target nearest survival player (in case original target dies/disconnects)
-execute as @e[type=wolf,tag=au_chupacabras] at @s run data modify entity @s AngryAt set from entity @p[gamemode=!creative,gamemode=!spectator] UUID
+execute as @e[type=wolf,tag=au_chupacabras] at @s run data modify entity @s angry_at set from entity @p[gamemode=!creative,gamemode=!spectator] UUID
 
 # --- Base effects (always active) ---
 # Strength II (amplifier 1)
